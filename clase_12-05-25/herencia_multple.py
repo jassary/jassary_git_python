@@ -28,7 +28,7 @@ class Jefe(Persona,Empleados):
         
     def presentar_jefe(self):
         print(f'''
-              Soy el jefe de la emprese {self.empresa}, mi
+              Mi nombre es {self.nombre} soy el jefe de la emprese {self.empresa}, mi
             comida fav es {self.comida_fav}, mi deporte favorito es 
             {self.deporte_fav}''')
         
